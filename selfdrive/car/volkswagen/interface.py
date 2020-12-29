@@ -43,8 +43,8 @@ class CarInterface(CarInterfaceBase):
 
       # FIXME: Per-vehicle parameters need to be reintegrated.
       # Until that time, defaulting to VW Golf Mk7 as a baseline.
-      ret.mass = 1500 + STD_CARGO_KG
-      ret.wheelbase = 2.64
+      ret.mass = 1450 + STD_CARGO_KG
+      ret.wheelbase = 2.69
       ret.centerToFront = ret.wheelbase * 0.45
       ret.steerRatio = 15.6
       ret.lateralTuning.pid.kf = 0.00006
